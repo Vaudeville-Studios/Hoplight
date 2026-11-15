@@ -69,16 +69,17 @@ import m57 from "../providers/spokes/claude-sub";
 import m58 from "../providers/spokes/codex";
 import m59 from "../providers/spokes/custom";
 import m60 from "../providers/spokes/deepseek";
-import m61 from "../providers/spokes/google";
-import m62 from "../providers/spokes/groq";
-import m63 from "../providers/spokes/local";
-import m64 from "../providers/spokes/mistral";
-import m65 from "../providers/spokes/nanogpt";
-import m66 from "../providers/spokes/openai";
-import m67 from "../providers/spokes/openrouter";
-import m68 from "../render/notify/channels/bell";
-import m69 from "../render/notify/channels/desktop";
-import m70 from "../render/notify/channels/title";
+import m61 from "../providers/spokes/demonroute";
+import m62 from "../providers/spokes/google";
+import m63 from "../providers/spokes/groq";
+import m64 from "../providers/spokes/local";
+import m65 from "../providers/spokes/mistral";
+import m66 from "../providers/spokes/nanogpt";
+import m67 from "../providers/spokes/openai";
+import m68 from "../providers/spokes/openrouter";
+import m69 from "../render/notify/channels/bell";
+import m70 from "../render/notify/channels/desktop";
+import m71 from "../render/notify/channels/title";
 
 /** Every drop-in Kit ships, in the same order the folder walk would return them. */
 export const KIT_DROP_INS = {
@@ -88,10 +89,10 @@ export const KIT_DROP_INS = {
   tools: [m21, m22, m23, m24, m25, m26, m27, m28, m29, m30, m31, m32, m33, m34, m35, m36, m37, m38, m39, m40, m41, m42, m43, m44, m45, m46, m47, m48, m49, m50, m51] as unknown[],
   /** 4 drop-in(s) from the doctorChecks folder(s). */
   doctorChecks: [m52, m53, m54, m55] as unknown[],
-  /** 12 drop-in(s) from the spokes folder(s). */
-  spokes: [m56, m57, m58, m59, m60, m61, m62, m63, m64, m65, m66, m67] as unknown[],
+  /** 13 drop-in(s) from the spokes folder(s). */
+  spokes: [m56, m57, m58, m59, m60, m61, m62, m63, m64, m65, m66, m67, m68] as unknown[],
   /** 3 drop-in(s) from the notifyChannels folder(s). */
-  notifyChannels: [m68, m69, m70] as unknown[],
+  notifyChannels: [m69, m70, m71] as unknown[],
 } as const;
 
 export type KitDropIns = typeof KIT_DROP_INS;

@@ -43,6 +43,7 @@ const ENV_PROVIDERS: ReadonlyArray<{ env: string; kind: string; model: string }>
   { env: "MISTRAL_API_KEY", kind: "mistral", model: "mistral-large-latest" },
   { env: "DEEPSEEK_API_KEY", kind: "deepseek", model: "deepseek-chat" },
   { env: "NANOGPT_API_KEY", kind: "nanogpt", model: "chatgpt-4o-latest" },
+  { env: "DEMONROUTE_API_KEY", kind: "demonroute", model: "TheDrummer/Cydonia-24B-v4.1" },
   { env: "GEMINI_API_KEY", kind: "google", model: "gemini-2.5-pro" },
 ];
 
