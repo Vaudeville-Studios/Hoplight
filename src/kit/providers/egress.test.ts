@@ -18,6 +18,7 @@ test("registry discovers every drop-in provider and skips the template", () => {
     "codex",
     "custom",
     "deepseek",
+    "demonroute",
     "google",
     "groq",
     "local",
