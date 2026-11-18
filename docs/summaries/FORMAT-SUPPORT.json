@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "docId": "FORMAT-SUPPORT",
   "sourcePath": "docs/FORMAT-SUPPORT.md",
-  "sourceHash": "sha256:1f9cf3029a9d6ae4c232317f795a387bc2fce8eb7fcdce6fb726f8b133da5817",
-  "summary": "Auto-generated format support matrix from the live adapter registry, grouped by canonical content kind with adapter id, output extensions, and human label. It documents CLI listing, inspection, conversion, and validation, with SillyTavern CCv3 as the default portable character shape for thin hosts. The current registry has nine character, six lorebook, four persona, four preset, five regex-set, and one quick-reply adapter. The quick-reply row is SillyTavern's version 2 qrList JSON format and promises semantic JSON preservation, not byte identity. Sprite packs and HTML documents remain canonical studio kinds with no foreign format adapters; HTML documents are intentionally canonical-only drawings. Notes explain content-sniff detection, fixture-proven same-format round trips, honest cross-format loss reporting, and sample locations. Because the page is generated, counts and rows change only with the registry.",
+  "sourceHash": "sha256:48d84abfb647d7b20f9d974f52f8fcd6a1f7b76e52cc5c5026968b733ddf1fe4",
+  "summary": "Auto-generated format support matrix from the live adapter registry, grouped by canonical content kind with adapter id, output extensions, and human label. It documents CLI listing, inspection, conversion, and validation, with SillyTavern CCv3 as the default portable character shape for thin hosts. The current registry has ten character, six lorebook, four persona, four preset, five regex-set, and one quick-reply adapter. The quick-reply row is SillyTavern's version 2 qrList JSON format and promises semantic JSON preservation, not byte identity. Sprite packs and HTML documents remain canonical studio kinds with no foreign format adapters; HTML documents are intentionally canonical-only drawings. Notes explain content-sniff detection, fixture-proven same-format round trips, honest cross-format loss reporting, and sample locations. Because the page is generated, counts and rows change only with the registry.",
   "topics": [
     "format support matrix",
     "live adapter registry",
@@ -35,18 +35,18 @@
       "shortSource": true
     },
     {
-      "slug": "characters-9",
-      "title": "Characters (9)",
+      "slug": "characters-10",
+      "title": "Characters (10)",
       "level": 2,
-      "sourceHash": "sha256:845466cbfdf20660399acdd8744287c79e9908bddc6ba972dd9ec23f8bd34c68",
-      "summary": "Nine character adapters. agnai writes .json for Agnai Agnaistic. backyard writes .json for Backyard.ai or Faraday legacy json. byaf writes .byaf Backyard archives. lumiverse writes .json and .charx for ST plus modules. pygmalion writes .json and .png flat character. risu writes .charx zip with card.json and assets. rolecall writes .json for RoleCall v3 png or json cards. sillytavern writes .json for SillyTavern CCv2 and v3 png or json. vaud-json writes .json as Hoplight native. All are kind character.",
+      "sourceHash": "sha256:18d1792bf96e04ece15d00594e48ff639034b46bea476e19a8e050b1463d0b02",
+      "summary": "Ten character adapters. agnai writes .json for Agnai Agnaistic. backyard writes .json for Backyard.ai or Faraday legacy json. byaf writes .byaf Backyard archives. cof writes .cof COF character files. lumiverse writes .json and .charx for ST plus modules. pygmalion writes .json and .png flat character. risu writes .charx zip with card.json and assets. rolecall writes .json for RoleCall v3 png or json cards. sillytavern writes .json for SillyTavern CCv2 and v3 png or json. vaud-json writes .json as Hoplight native.",
       "topics": [
-        "agnai backyard byaf",
+        "agnai backyard byaf cof",
         "lumiverse pygmalion risu",
         "rolecall sillytavern",
         "vaud-json native",
-        "character adapters nine",
-        "charx png json"
+        "character adapters ten",
+        "charx png json cof"
       ],
       "children": [],
       "shortSource": true

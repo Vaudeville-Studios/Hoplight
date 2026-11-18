@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-20",
   "count": 115,
   "pages": [
     {
@@ -116,7 +116,7 @@
     },
     {
       "docId": "FORMAT-SUPPORT",
-      "status": "APPROVED",
+      "status": "READY_FOR_REVIEW",
       "verdict": "APPROVE",
       "reviewer": "review_current_release_tranche",
       "sourceHash": "sha256:1f9cf3029a9d6ae4c232317f795a387bc2fce8eb7fcdce6fb726f8b133da5817",

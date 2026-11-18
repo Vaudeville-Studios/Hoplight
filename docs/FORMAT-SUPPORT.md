@@ -2,7 +2,7 @@
 
 Auto-generated from live adapters (`bun run scripts/format-matrix.ts`).
 Canonical schema version: **1**.
-Generated: 2026-09-13.
+Generated: 2026-11-20.
 
 ## How to use
 
@@ -16,13 +16,14 @@ bun run hoplight validate path/to/card.json
 Default portable character shape for thin hosts (C.AI Tools dumps, Crushon import, etc.):
 **SillyTavern / CCv3** (`sillytavern` adapter).
 
-## Characters (9)
+## Characters (10)
 
 | id | kind | writes | label |
 | --- | --- | --- | --- |
 | `agnai` | character | .json | Agnai (Agnaistic) character (.json) |
 | `backyard` | character | .json | Backyard.ai / Faraday character (legacy json) |
 | `byaf` | character | .byaf | Backyard archive (.byaf) |
+| `cof` | character | .cof | COF character file (.cof) |
 | `lumiverse` | character | .json, .charx | Lumiverse character (ST + modules) |
 | `pygmalion` | character | .json, .png | Pygmalion character (flat JSON / PNG) |
 | `risu` | character | .charx | RisuAI .charx (zip: card.json + assets) |

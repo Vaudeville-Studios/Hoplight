@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-03",
+  "generated": "2026-11-20",
   "targetChars": 90000,
   "totalPages": 115,
-  "totalSourceChars": 1063237,
+  "totalSourceChars": 1063295,
   "batches": [
     {
       "id": "batch-001",
-      "sourceChars": 89403,
+      "sourceChars": 89461,
       "pages": [
         {
           "docId": "01-VISION",
@@ -125,8 +125,8 @@
           "sourcePath": "docs/FORMAT-SUPPORT.md",
           "sidecarPath": "docs/summaries/FORMAT-SUPPORT.json",
           "sectionCount": 11,
-          "sourceChars": 4730,
-          "status": "APPROVED"
+          "sourceChars": 4788,
+          "status": "READY_FOR_REVIEW"
         },
         {
           "docId": "guide/converting",
