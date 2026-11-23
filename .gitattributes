@@ -13,4 +13,5 @@ fixtures/** -text
 *.ico binary
 *.charx binary
 *.byaf binary
+*.cof binary
 *.woff2 binary
